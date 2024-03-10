@@ -1,0 +1,15 @@
+.imageanimation{
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    }
+    .img-hover{
+        transition: 5s;
+        transition-timing-function: ease-in-out;
+        filter: brightness(0%);
+    }
+    .img-hover:hover{
+        transform: scale(1.5) rotate(30deg);
+       filter: brightness(100%);
+    }
